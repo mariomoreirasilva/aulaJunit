@@ -6,8 +6,7 @@ import org.junit.jupiter.api.extension.ExtendWith;
 
 import entities.Account;
 
-@ExtendWith(SpringExtension.class)
-@SpringBootTest
+
 public class AccountTests {
 	@Test
 	public void depositShouldIncreaseBalanceWhenPositiveAmount() {
